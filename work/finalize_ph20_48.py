@@ -19,6 +19,7 @@ ROOT = Path("/home/ubuntu/codex_ph20_20260820")
 FOLD_DIR = ROOT / "work/esmfold2fast_fold120_v2"
 OUT_DIR = ROOT / "outputs/ph20_48_10mut_designs"
 N_FINAL = 48
+AUDIT_EXCLUDED_MUTATIONS = {"Q350R"}
 
 
 def read_fasta(path: Path) -> dict[str, str]:
@@ -155,6 +156,8 @@ def main() -> None:
     mutation_use: Counter[str] = Counter()
     for row in sorted(passing, key=lambda item: item["fold_selection_score"], reverse=True):
         mutations = set(row["mutations"].split(";"))
+        if mutations & AUDIT_EXCLUDED_MUTATIONS:
+            continue
         if any(len(mutations & set(other["mutations"].split(";"))) > 8 for other in selected):
             continue
         if any(mutation_use[mutation] >= 45 for mutation in mutations):
