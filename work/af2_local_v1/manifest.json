@@ -1,0 +1,345 @@
+[
+  {
+    "name": "WT",
+    "shard": 0,
+    "length": 449,
+    "mutations": 0,
+    "input_a3m": "work/af2_local_v1/input_shards/0/WT.a3m"
+  },
+  {
+    "name": "PH20_10M_001",
+    "shard": 1,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/1/PH20_10M_001.a3m"
+  },
+  {
+    "name": "PH20_10M_002",
+    "shard": 2,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/2/PH20_10M_002.a3m"
+  },
+  {
+    "name": "PH20_10M_003",
+    "shard": 3,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/3/PH20_10M_003.a3m"
+  },
+  {
+    "name": "PH20_10M_004",
+    "shard": 4,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/4/PH20_10M_004.a3m"
+  },
+  {
+    "name": "PH20_10M_005",
+    "shard": 5,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/5/PH20_10M_005.a3m"
+  },
+  {
+    "name": "PH20_10M_006",
+    "shard": 6,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/6/PH20_10M_006.a3m"
+  },
+  {
+    "name": "PH20_10M_007",
+    "shard": 7,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/7/PH20_10M_007.a3m"
+  },
+  {
+    "name": "PH20_10M_008",
+    "shard": 0,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/0/PH20_10M_008.a3m"
+  },
+  {
+    "name": "PH20_10M_009",
+    "shard": 1,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/1/PH20_10M_009.a3m"
+  },
+  {
+    "name": "PH20_10M_010",
+    "shard": 2,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/2/PH20_10M_010.a3m"
+  },
+  {
+    "name": "PH20_10M_011",
+    "shard": 3,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/3/PH20_10M_011.a3m"
+  },
+  {
+    "name": "PH20_10M_012",
+    "shard": 4,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/4/PH20_10M_012.a3m"
+  },
+  {
+    "name": "PH20_10M_013",
+    "shard": 5,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/5/PH20_10M_013.a3m"
+  },
+  {
+    "name": "PH20_10M_014",
+    "shard": 6,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/6/PH20_10M_014.a3m"
+  },
+  {
+    "name": "PH20_10M_015",
+    "shard": 7,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/7/PH20_10M_015.a3m"
+  },
+  {
+    "name": "PH20_10M_016",
+    "shard": 0,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/0/PH20_10M_016.a3m"
+  },
+  {
+    "name": "PH20_10M_017",
+    "shard": 1,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/1/PH20_10M_017.a3m"
+  },
+  {
+    "name": "PH20_10M_018",
+    "shard": 2,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/2/PH20_10M_018.a3m"
+  },
+  {
+    "name": "PH20_10M_019",
+    "shard": 3,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/3/PH20_10M_019.a3m"
+  },
+  {
+    "name": "PH20_10M_020",
+    "shard": 4,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/4/PH20_10M_020.a3m"
+  },
+  {
+    "name": "PH20_10M_021",
+    "shard": 5,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/5/PH20_10M_021.a3m"
+  },
+  {
+    "name": "PH20_10M_022",
+    "shard": 6,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/6/PH20_10M_022.a3m"
+  },
+  {
+    "name": "PH20_10M_023",
+    "shard": 7,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/7/PH20_10M_023.a3m"
+  },
+  {
+    "name": "PH20_10M_024",
+    "shard": 0,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/0/PH20_10M_024.a3m"
+  },
+  {
+    "name": "PH20_10M_025",
+    "shard": 1,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/1/PH20_10M_025.a3m"
+  },
+  {
+    "name": "PH20_10M_026",
+    "shard": 2,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/2/PH20_10M_026.a3m"
+  },
+  {
+    "name": "PH20_10M_027",
+    "shard": 3,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/3/PH20_10M_027.a3m"
+  },
+  {
+    "name": "PH20_10M_028",
+    "shard": 4,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/4/PH20_10M_028.a3m"
+  },
+  {
+    "name": "PH20_10M_029",
+    "shard": 5,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/5/PH20_10M_029.a3m"
+  },
+  {
+    "name": "PH20_10M_030",
+    "shard": 6,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/6/PH20_10M_030.a3m"
+  },
+  {
+    "name": "PH20_10M_031",
+    "shard": 7,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/7/PH20_10M_031.a3m"
+  },
+  {
+    "name": "PH20_10M_032",
+    "shard": 0,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/0/PH20_10M_032.a3m"
+  },
+  {
+    "name": "PH20_10M_033",
+    "shard": 1,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/1/PH20_10M_033.a3m"
+  },
+  {
+    "name": "PH20_10M_034",
+    "shard": 2,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/2/PH20_10M_034.a3m"
+  },
+  {
+    "name": "PH20_10M_035",
+    "shard": 3,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/3/PH20_10M_035.a3m"
+  },
+  {
+    "name": "PH20_10M_036",
+    "shard": 4,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/4/PH20_10M_036.a3m"
+  },
+  {
+    "name": "PH20_10M_037",
+    "shard": 5,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/5/PH20_10M_037.a3m"
+  },
+  {
+    "name": "PH20_10M_038",
+    "shard": 6,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/6/PH20_10M_038.a3m"
+  },
+  {
+    "name": "PH20_10M_039",
+    "shard": 7,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/7/PH20_10M_039.a3m"
+  },
+  {
+    "name": "PH20_10M_040",
+    "shard": 0,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/0/PH20_10M_040.a3m"
+  },
+  {
+    "name": "PH20_10M_041",
+    "shard": 1,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/1/PH20_10M_041.a3m"
+  },
+  {
+    "name": "PH20_10M_042",
+    "shard": 2,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/2/PH20_10M_042.a3m"
+  },
+  {
+    "name": "PH20_10M_043",
+    "shard": 3,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/3/PH20_10M_043.a3m"
+  },
+  {
+    "name": "PH20_10M_044",
+    "shard": 4,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/4/PH20_10M_044.a3m"
+  },
+  {
+    "name": "PH20_10M_045",
+    "shard": 5,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/5/PH20_10M_045.a3m"
+  },
+  {
+    "name": "PH20_10M_046",
+    "shard": 6,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/6/PH20_10M_046.a3m"
+  },
+  {
+    "name": "PH20_10M_047",
+    "shard": 7,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/7/PH20_10M_047.a3m"
+  },
+  {
+    "name": "PH20_10M_048",
+    "shard": 0,
+    "length": 449,
+    "mutations": 10,
+    "input_a3m": "work/af2_local_v1/input_shards/0/PH20_10M_048.a3m"
+  }
+]
