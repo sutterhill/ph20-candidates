@@ -23,3 +23,9 @@ PH20 positions therefore map to construct positions by subtracting 34.
 
 The design pipeline additionally protects every cysteine and every residue in an
 N-X-S/T sequon.
+
+## Primary references
+
+- UniProt P38567: https://www.uniprot.org/uniprotkb/P38567/entry
+- Human PH20 cryo-EM structure, PDB 9JUB: https://www.rcsb.org/structure/9JUB
+- PH20 catalytic/substrate-site mutagenesis: https://pubmed.ncbi.nlm.nih.gov/9288901/

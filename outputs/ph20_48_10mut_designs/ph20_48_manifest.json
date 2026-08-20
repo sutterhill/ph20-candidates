@@ -1,0 +1,43 @@
+{
+  "target": "soluble human PH20/SPAM1; initiator Met + UniProt P38567 residues 36-483",
+  "wild_type_length": 449,
+  "generated_unique_exact_ten_mutants": 8600,
+  "five_model_scored": 480,
+  "folded": 128,
+  "fold_passing": 118,
+  "design_count": 48,
+  "mutations_per_design": 10,
+  "protected_essential_construct_positions": [
+    112,
+    114,
+    177,
+    230,
+    250,
+    253
+  ],
+  "protected_positions_total": 246,
+  "ridgey_models": [
+    "600m",
+    "600m_ens1",
+    "600m_ens2",
+    "600m_ens3",
+    "600m_ens4"
+  ],
+  "potts": {
+    "msa_sequences": 3801,
+    "n_eff": 1336.0673828125,
+    "rank": 32,
+    "selected_l2_lambda": 1.0
+  },
+  "esmfold2fast_wt": {
+    "plddt": 0.9593032002449036,
+    "ptm": 0.9757335782051086
+  },
+  "selection": {
+    "stability": "positive delta in all five Ridgey 600M checkpoints",
+    "ec": "positive ensemble-mean P(EC 3.2.1.35), non-decreasing in >=4/5 checkpoints, worst delta >= -0.0018",
+    "solubility": "positive ensemble-mean delta",
+    "sequence_likelihood": "positive ensemble-mean mutation-site masked log-probability delta",
+    "fold": "ESMFold2-Fast pLDDT >= WT-0.008, pTM >= WT-0.020, active-pocket RMSD <=0.75 \u00c5, domain RMSD <=1.50 \u00c5"
+  }
+}

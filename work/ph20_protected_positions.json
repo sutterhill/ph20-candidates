@@ -1,0 +1,1266 @@
+{
+  "construct": "initiator Met + human PH20 residues 36-483",
+  "length": 449,
+  "essential_positions_1_indexed": {
+    "112": "catalytic Asp146 (full-length numbering)",
+    "114": "catalytic Glu148 proton donor",
+    "177": "substrate-binding Arg211",
+    "230": "catalytic Tyr264",
+    "250": "activity-essential Asp284",
+    "253": "substrate-binding Arg287"
+  },
+  "cysteine_positions_1_indexed": [
+    26,
+    190,
+    204,
+    317,
+    342,
+    347,
+    353,
+    401,
+    403,
+    409,
+    424,
+    430
+  ],
+  "n_glycosylation_sequons": [
+    {
+      "motif": "NAT",
+      "positions_1_indexed": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "motif": "NRS",
+      "positions_1_indexed": [
+        132,
+        133,
+        134
+      ]
+    },
+    {
+      "motif": "NGS",
+      "positions_1_indexed": [
+        201,
+        202,
+        203
+      ]
+    },
+    {
+      "motif": "NES",
+      "positions_1_indexed": [
+        220,
+        221,
+        222
+      ]
+    },
+    {
+      "motif": "NVT",
+      "positions_1_indexed": [
+        334,
+        335,
+        336
+      ]
+    },
+    {
+      "motif": "NSS",
+      "positions_1_indexed": [
+        359,
+        360,
+        361
+      ]
+    }
+  ],
+  "active_pocket_positions_1_indexed": [
+    1,
+    3,
+    4,
+    5,
+    20,
+    21,
+    45,
+    50,
+    51,
+    52,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    65,
+    66,
+    67,
+    68,
+    70,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    158,
+    165,
+    166,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    195,
+    200,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    219,
+    221,
+    223,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    278,
+    282,
+    286,
+    289,
+    290,
+    291,
+    294,
+    297,
+    298,
+    299,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    358
+  ],
+  "protected_positions_1_indexed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    20,
+    21,
+    24,
+    25,
+    26,
+    27,
+    28,
+    45,
+    48,
+    49,
+    50,
+    51,
+    52,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    65,
+    66,
+    67,
+    68,
+    70,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    132,
+    133,
+    134,
+    158,
+    165,
+    166,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    195,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    219,
+    220,
+    221,
+    222,
+    223,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    278,
+    282,
+    286,
+    289,
+    290,
+    291,
+    294,
+    297,
+    298,
+    299,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    315,
+    316,
+    317,
+    318,
+    319,
+    334,
+    335,
+    336,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    351,
+    352,
+    353,
+    354,
+    355,
+    358,
+    359,
+    360,
+    361,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    407,
+    408,
+    409,
+    410,
+    411,
+    422,
+    423,
+    424,
+    425,
+    426,
+    428,
+    429,
+    430,
+    431,
+    432,
+    442,
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    449
+  ],
+  "reasons_by_position": {
+    "1": [
+      "construct terminus",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "2": [
+      "construct terminus"
+    ],
+    "3": [
+      "construct terminus",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "4": [
+      "construct terminus",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "5": [
+      "construct terminus",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "6": [
+      "construct terminus"
+    ],
+    "7": [
+      "construct terminus"
+    ],
+    "8": [
+      "construct terminus"
+    ],
+    "20": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "21": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "24": [
+      "within two residues of Cys26"
+    ],
+    "25": [
+      "within two residues of Cys26"
+    ],
+    "26": [
+      "within two residues of Cys26"
+    ],
+    "27": [
+      "within two residues of Cys26"
+    ],
+    "28": [
+      "within two residues of Cys26"
+    ],
+    "45": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "48": [
+      "N-glycosylation sequon NAT at 48"
+    ],
+    "49": [
+      "N-glycosylation sequon NAT at 48"
+    ],
+    "50": [
+      "N-glycosylation sequon NAT at 48",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "51": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "52": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "54": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "55": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "56": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "57": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "58": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "59": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "60": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "61": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "62": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "65": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "66": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "67": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "68": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "70": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "93": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "94": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "95": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "96": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "97": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "98": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "99": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "100": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "101": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "102": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "103": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "104": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "105": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "106": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "107": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "108": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "109": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "110": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "111": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "112": [
+      "catalytic Asp146 (full-length numbering)",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "113": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "114": [
+      "catalytic Glu148 proton donor",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "115": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "116": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "117": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "118": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "122": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "123": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "124": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "125": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "126": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "127": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "128": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "129": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "130": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "132": [
+      "N-glycosylation sequon NRS at 132"
+    ],
+    "133": [
+      "N-glycosylation sequon NRS at 132"
+    ],
+    "134": [
+      "N-glycosylation sequon NRS at 132"
+    ],
+    "158": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "165": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "166": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "169": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "170": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "171": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "172": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "173": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "174": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "175": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "176": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "177": [
+      "substrate-binding Arg211",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "178": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "179": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "180": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "181": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "182": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "183": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "184": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "185": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "186": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "187": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "188": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys190"
+    ],
+    "189": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys190"
+    ],
+    "190": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys190"
+    ],
+    "191": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys190"
+    ],
+    "192": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys190"
+    ],
+    "193": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "195": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "200": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "201": [
+      "N-glycosylation sequon NGS at 201"
+    ],
+    "202": [
+      "N-glycosylation sequon NGS at 201",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys204"
+    ],
+    "203": [
+      "N-glycosylation sequon NGS at 201",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys204"
+    ],
+    "204": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys204"
+    ],
+    "205": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys204"
+    ],
+    "206": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms",
+      "within two residues of Cys204"
+    ],
+    "207": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "208": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "209": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "210": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "211": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "212": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "213": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "214": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "215": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "216": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "219": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "220": [
+      "N-glycosylation sequon NES at 220"
+    ],
+    "221": [
+      "N-glycosylation sequon NES at 220",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "222": [
+      "N-glycosylation sequon NES at 220"
+    ],
+    "223": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "225": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "226": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "227": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "228": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "229": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "230": [
+      "catalytic Tyr264",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "231": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "232": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "233": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "234": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "235": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "239": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "240": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "241": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "242": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "243": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "244": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "245": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "246": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "247": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "248": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "249": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "250": [
+      "activity-essential Asp284",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "251": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "252": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "253": [
+      "substrate-binding Arg287",
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "254": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "255": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "256": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "257": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "258": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "259": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "260": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "261": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "262": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "263": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "264": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "265": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "266": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "267": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "268": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "269": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "270": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "271": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "272": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "273": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "274": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "275": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "276": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "278": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "282": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "286": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "289": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "290": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "291": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "294": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "297": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "298": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "299": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "302": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "303": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "304": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "305": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "306": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "307": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "315": [
+      "within two residues of Cys317"
+    ],
+    "316": [
+      "within two residues of Cys317"
+    ],
+    "317": [
+      "within two residues of Cys317"
+    ],
+    "318": [
+      "within two residues of Cys317"
+    ],
+    "319": [
+      "within two residues of Cys317"
+    ],
+    "334": [
+      "N-glycosylation sequon NVT at 334"
+    ],
+    "335": [
+      "N-glycosylation sequon NVT at 334"
+    ],
+    "336": [
+      "N-glycosylation sequon NVT at 334"
+    ],
+    "340": [
+      "within two residues of Cys342"
+    ],
+    "341": [
+      "within two residues of Cys342"
+    ],
+    "342": [
+      "within two residues of Cys342"
+    ],
+    "343": [
+      "within two residues of Cys342"
+    ],
+    "344": [
+      "within two residues of Cys342"
+    ],
+    "345": [
+      "within two residues of Cys347"
+    ],
+    "346": [
+      "within two residues of Cys347"
+    ],
+    "347": [
+      "within two residues of Cys347"
+    ],
+    "348": [
+      "within two residues of Cys347"
+    ],
+    "349": [
+      "within two residues of Cys347"
+    ],
+    "351": [
+      "within two residues of Cys353"
+    ],
+    "352": [
+      "within two residues of Cys353"
+    ],
+    "353": [
+      "within two residues of Cys353"
+    ],
+    "354": [
+      "within two residues of Cys353"
+    ],
+    "355": [
+      "within two residues of Cys353"
+    ],
+    "358": [
+      "within 10 \u00c5 of essential catalytic/substrate-binding atoms"
+    ],
+    "359": [
+      "N-glycosylation sequon NSS at 359"
+    ],
+    "360": [
+      "N-glycosylation sequon NSS at 359"
+    ],
+    "361": [
+      "N-glycosylation sequon NSS at 359"
+    ],
+    "399": [
+      "within two residues of Cys401"
+    ],
+    "400": [
+      "within two residues of Cys401"
+    ],
+    "401": [
+      "within two residues of Cys401",
+      "within two residues of Cys403"
+    ],
+    "402": [
+      "within two residues of Cys401",
+      "within two residues of Cys403"
+    ],
+    "403": [
+      "within two residues of Cys401",
+      "within two residues of Cys403"
+    ],
+    "404": [
+      "within two residues of Cys403"
+    ],
+    "405": [
+      "within two residues of Cys403"
+    ],
+    "407": [
+      "within two residues of Cys409"
+    ],
+    "408": [
+      "within two residues of Cys409"
+    ],
+    "409": [
+      "within two residues of Cys409"
+    ],
+    "410": [
+      "within two residues of Cys409"
+    ],
+    "411": [
+      "within two residues of Cys409"
+    ],
+    "422": [
+      "within two residues of Cys424"
+    ],
+    "423": [
+      "within two residues of Cys424"
+    ],
+    "424": [
+      "within two residues of Cys424"
+    ],
+    "425": [
+      "within two residues of Cys424"
+    ],
+    "426": [
+      "within two residues of Cys424"
+    ],
+    "428": [
+      "within two residues of Cys430"
+    ],
+    "429": [
+      "within two residues of Cys430"
+    ],
+    "430": [
+      "within two residues of Cys430"
+    ],
+    "431": [
+      "within two residues of Cys430"
+    ],
+    "432": [
+      "within two residues of Cys430"
+    ],
+    "442": [
+      "construct terminus"
+    ],
+    "443": [
+      "construct terminus"
+    ],
+    "444": [
+      "construct terminus"
+    ],
+    "445": [
+      "construct terminus"
+    ],
+    "446": [
+      "construct terminus"
+    ],
+    "447": [
+      "construct terminus"
+    ],
+    "448": [
+      "construct terminus"
+    ],
+    "449": [
+      "construct terminus"
+    ]
+  }
+}
