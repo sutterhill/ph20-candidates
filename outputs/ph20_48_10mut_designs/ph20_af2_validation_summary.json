@@ -1,0 +1,57 @@
+{
+  "project": "ph20",
+  "method": "local ColabFold 1.6.2 AlphaFold2-pTM model 1; existing target MSA; 3 recycles, 1 ensemble, seed 0, no templates, no relaxation",
+  "execution": "local Docker containers on eight aws0 H100 GPUs",
+  "image": "ghcr.io/sokrypton/colabfold:1.6.2-cuda12",
+  "parent": {
+    "af2_plddt": 0.9297338530066815,
+    "af2_ptm": 0.91
+  },
+  "candidates": 48,
+  "gate_pass": 48,
+  "gate_fail": 0,
+  "failed_designs": [],
+  "ranges": {
+    "af2_plddt": [
+      0.9232527839643652,
+      0.9363115812917594
+    ],
+    "af2_plddt_delta_vs_parent": [
+      -0.006481069042316379,
+      0.006577728285077855
+    ],
+    "af2_ptm": [
+      0.91,
+      0.91
+    ],
+    "af2_ptm_delta_vs_parent": [
+      0.0,
+      0.0
+    ],
+    "af2_global_ca_rmsd_vs_parent_angstrom": [
+      0.2747070255429153,
+      0.33433218999034997
+    ],
+    "af2_protected_ca_rmsd_vs_parent_angstrom": [
+      0.02527191764245234,
+      0.06221365833638167
+    ],
+    "af2_essential_ca_rmsd_vs_parent_angstrom": [
+      0.010104953782549954,
+      0.03401905414429587
+    ],
+    "af2_max_domain_ca_rmsd_vs_parent_angstrom": [
+      0.30023715180571997,
+      0.36425532150092066
+    ],
+    "af2_vs_esmfold2fast_ca_rmsd_angstrom": [
+      0.4232344087202159,
+      0.5834571899476307
+    ]
+  },
+  "outputs": {
+    "merged_payload": "/home/ubuntu/codex_ph20_20260820/outputs/ph20_48_10mut_designs/ph20_candidate_measurements_with_af2.json",
+    "csv": "/home/ubuntu/codex_ph20_20260820/outputs/ph20_48_10mut_designs/ph20_af2_validation.csv",
+    "structures": "/home/ubuntu/codex_ph20_20260820/outputs/ph20_48_10mut_designs/af2_structures"
+  }
+}
