@@ -4,8 +4,8 @@
   "generated_at": "2026-08-20T18:03:59.359272+00:00",
   "provenance": {
     "repository": "https://github.com/sutterhill/ph20-candidates",
-    "analysis_commit": "b48a19c3301d2bf227d928e0a2f6f17da1ef70fe",
-    "analysis_commit_url": "https://github.com/sutterhill/ph20-candidates/commit/b48a19c3301d2bf227d928e0a2f6f17da1ef70fe"
+    "analysis_commit": "4c90f3fd547ac3776cfc379f4bc2a494bb5c3626",
+    "analysis_commit_url": "https://github.com/sutterhill/ph20-candidates/commit/4c90f3fd547ac3776cfc379f4bc2a494bb5c3626"
   },
   "methods": {
     "ridgey": "five local Ridgey v2 600M checkpoints",
@@ -82,7 +82,7 @@
     "af2_pass_candidates": 48,
     "af2_fail_candidates": 0,
     "af2_failed_designs": [],
-    "af2_validation_definition": "candidate versus AF2 parent: pLDDT >= parent-0.010, pTM >= parent-0.020, max-domain RMSD <= 1.50 \u00c5, active pocket RMSD <= 0.75 \u00c5, essential-site RMSD <= 0.75 \u00c5"
+    "af2_validation_definition": "candidate versus AF2 parent: pLDDT >= parent-0.010, pTM >= parent-0.020, max-domain RMSD <= 1.50 \u00c5, essential-site RMSD <= 0.75 \u00c5, active pocket RMSD <= 0.75 \u00c5"
   },
   "mutation_catalog": [
     {
@@ -595,6 +595,14 @@
           "value": 0.04817154324142148,
           "parent": 0.0,
           "delta": 0.04817154324142148,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.030807995297099933,
+          "parent": 0.0,
+          "delta": 0.030807995297099933,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -1119,6 +1127,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.030356465658188968,
+          "parent": 0.0,
+          "delta": 0.030356465658188968,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3606341459196831,
           "parent": 0.0,
@@ -1605,6 +1621,14 @@
           "value": 0.04643115113270125,
           "parent": 0.0,
           "delta": 0.04643115113270125,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02905859287494034,
+          "parent": 0.0,
+          "delta": 0.02905859287494034,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -2129,6 +2153,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02306915864823488,
+          "parent": 0.0,
+          "delta": 0.02306915864823488,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3006215854519363,
           "parent": 0.0,
@@ -2613,6 +2645,14 @@
           "value": 0.0609517778039863,
           "parent": 0.0,
           "delta": 0.0609517778039863,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.031627159443685035,
+          "parent": 0.0,
+          "delta": 0.031627159443685035,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -3105,6 +3145,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.030898261516940407,
+          "parent": 0.0,
+          "delta": 0.030898261516940407,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.34750356684732026,
           "parent": 0.0,
@@ -3589,6 +3637,14 @@
           "value": 0.06172171980505846,
           "parent": 0.0,
           "delta": 0.06172171980505846,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.029582711526179525,
+          "parent": 0.0,
+          "delta": 0.029582711526179525,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -4081,6 +4137,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02993852597457536,
+          "parent": 0.0,
+          "delta": 0.02993852597457536,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3496757151614643,
           "parent": 0.0,
@@ -4565,6 +4629,14 @@
           "value": 0.0585753736216466,
           "parent": 0.0,
           "delta": 0.0585753736216466,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.030958817078243456,
+          "parent": 0.0,
+          "delta": 0.030958817078243456,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -5057,6 +5129,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.021746565422107702,
+          "parent": 0.0,
+          "delta": 0.021746565422107702,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.30023715180571997,
           "parent": 0.0,
@@ -5541,6 +5621,14 @@
           "value": 0.05450083613377851,
           "parent": 0.0,
           "delta": 0.05450083613377851,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.026277889575123333,
+          "parent": 0.0,
+          "delta": 0.026277889575123333,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -6033,6 +6121,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.029372319085382143,
+          "parent": 0.0,
+          "delta": 0.029372319085382143,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3639907709575659,
           "parent": 0.0,
@@ -6517,6 +6613,14 @@
           "value": 0.05738374190310497,
           "parent": 0.0,
           "delta": 0.05738374190310497,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.028822114220130365,
+          "parent": 0.0,
+          "delta": 0.028822114220130365,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -7009,6 +7113,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02835430720903698,
+          "parent": 0.0,
+          "delta": 0.02835430720903698,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.35950893320484273,
           "parent": 0.0,
@@ -7493,6 +7605,14 @@
           "value": 0.04970566340503083,
           "parent": 0.0,
           "delta": 0.04970566340503083,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.0329182122447337,
+          "parent": 0.0,
+          "delta": 0.0329182122447337,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -7985,6 +8105,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.026832385986960843,
+          "parent": 0.0,
+          "delta": 0.026832385986960843,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3614217560715466,
           "parent": 0.0,
@@ -8469,6 +8597,14 @@
           "value": 0.06058234740355777,
           "parent": 0.0,
           "delta": 0.06058234740355777,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.030024662749558957,
+          "parent": 0.0,
+          "delta": 0.030024662749558957,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -8959,6 +9095,14 @@
           "value": 0.04502724961286885,
           "parent": 0.0,
           "delta": 0.04502724961286885,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02824495432645327,
+          "parent": 0.0,
+          "delta": 0.02824495432645327,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -9485,6 +9629,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02882241275774471,
+          "parent": 0.0,
+          "delta": 0.02882241275774471,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3429305353226091,
           "parent": 0.0,
@@ -10005,6 +10157,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.022793665078774297,
+          "parent": 0.0,
+          "delta": 0.022793665078774297,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3483060302622784,
           "parent": 0.0,
@@ -10491,6 +10651,14 @@
           "value": 0.055887228168156056,
           "parent": 0.0,
           "delta": 0.055887228168156056,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.026184827883270024,
+          "parent": 0.0,
+          "delta": 0.026184827883270024,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -11015,6 +11183,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.027019293228827627,
+          "parent": 0.0,
+          "delta": 0.027019293228827627,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3609881242249791,
           "parent": 0.0,
@@ -11499,6 +11675,14 @@
           "value": 0.05423249502732985,
           "parent": 0.0,
           "delta": 0.05423249502732985,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.029392519666849436,
+          "parent": 0.0,
+          "delta": 0.029392519666849436,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -11991,6 +12175,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02653452388568034,
+          "parent": 0.0,
+          "delta": 0.02653452388568034,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3483947360434505,
           "parent": 0.0,
@@ -12475,6 +12667,14 @@
           "value": 0.04003408283702876,
           "parent": 0.0,
           "delta": 0.04003408283702876,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02142214927105144,
+          "parent": 0.0,
+          "delta": 0.02142214927105144,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -12965,6 +13165,14 @@
           "value": 0.04195588205722958,
           "parent": 0.0,
           "delta": 0.04195588205722958,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02649656207077121,
+          "parent": 0.0,
+          "delta": 0.02649656207077121,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -13489,6 +13697,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.029892991225455075,
+          "parent": 0.0,
+          "delta": 0.029892991225455075,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.35110571109189775,
           "parent": 0.0,
@@ -13973,6 +14189,14 @@
           "value": 0.05573476465034066,
           "parent": 0.0,
           "delta": 0.05573476465034066,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.028776938094100132,
+          "parent": 0.0,
+          "delta": 0.028776938094100132,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -14465,6 +14689,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.028148615990574638,
+          "parent": 0.0,
+          "delta": 0.028148615990574638,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3574078135726611,
           "parent": 0.0,
@@ -14951,6 +15183,14 @@
           "value": 0.04826273081774763,
           "parent": 0.0,
           "delta": 0.04826273081774763,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.03179405986042955,
+          "parent": 0.0,
+          "delta": 0.03179405986042955,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -15477,6 +15717,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02987327060303324,
+          "parent": 0.0,
+          "delta": 0.02987327060303324,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3485184940752177,
           "parent": 0.0,
@@ -15961,6 +16209,14 @@
           "value": 0.05735978083317078,
           "parent": 0.0,
           "delta": 0.05735978083317078,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.0320369655204523,
+          "parent": 0.0,
+          "delta": 0.0320369655204523,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -16451,6 +16707,14 @@
           "value": 0.04786198801910352,
           "parent": 0.0,
           "delta": 0.04786198801910352,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.03179934635770584,
+          "parent": 0.0,
+          "delta": 0.03179934635770584,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -16975,6 +17239,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.021996171330335962,
+          "parent": 0.0,
+          "delta": 0.021996171330335962,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3036798795360306,
           "parent": 0.0,
@@ -17459,6 +17731,14 @@
           "value": 0.045073631430069566,
           "parent": 0.0,
           "delta": 0.045073631430069566,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.025952441226543783,
+          "parent": 0.0,
+          "delta": 0.025952441226543783,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -17949,6 +18229,14 @@
           "value": 0.042241254877464926,
           "parent": 0.0,
           "delta": 0.042241254877464926,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.024850524630937135,
+          "parent": 0.0,
+          "delta": 0.024850524630937135,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -18473,6 +18761,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.027372606543874817,
+          "parent": 0.0,
+          "delta": 0.027372606543874817,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.35363502804093594,
           "parent": 0.0,
@@ -18959,6 +19255,14 @@
           "value": 0.05732342406091515,
           "parent": 0.0,
           "delta": 0.05732342406091515,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.027694119392244167,
+          "parent": 0.0,
+          "delta": 0.027694119392244167,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -19485,6 +19789,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.031075136949041356,
+          "parent": 0.0,
+          "delta": 0.031075136949041356,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3637708947790645,
           "parent": 0.0,
@@ -20003,6 +20315,14 @@
           "value": 0.0576911262955464,
           "parent": 0.0,
           "delta": 0.0576911262955464,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.021926181687573962,
+          "parent": 0.0,
+          "delta": 0.021926181687573962,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -20527,6 +20847,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.023732209926983293,
+          "parent": 0.0,
+          "delta": 0.023732209926983293,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3452982627431613,
           "parent": 0.0,
@@ -21013,6 +21341,14 @@
           "value": 0.050833640430501335,
           "parent": 0.0,
           "delta": 0.050833640430501335,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.019545156565829065,
+          "parent": 0.0,
+          "delta": 0.019545156565829065,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -21537,6 +21873,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.03116778179144681,
+          "parent": 0.0,
+          "delta": 0.03116778179144681,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3569174534542881,
           "parent": 0.0,
@@ -22023,6 +22367,14 @@
           "value": 0.06221365833638167,
           "parent": 0.0,
           "delta": 0.06221365833638167,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.02888277671284138,
+          "parent": 0.0,
+          "delta": 0.02888277671284138,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -22549,6 +22901,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.03401905414429587,
+          "parent": 0.0,
+          "delta": 0.03401905414429587,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.36139345166946557,
           "parent": 0.0,
@@ -23067,6 +23427,14 @@
           "value": 0.02527191764245234,
           "parent": 0.0,
           "delta": 0.02527191764245234,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.010104953782549954,
+          "parent": 0.0,
+          "delta": 0.010104953782549954,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
@@ -23593,6 +23961,14 @@
           "unit": "angstrom",
           "good_direction": "lower"
         },
+        "af2_essential_ca_rmsd": {
+          "value": 0.012401626757448702,
+          "parent": 0.0,
+          "delta": 0.012401626757448702,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
         "af2_max_domain_ca_rmsd": {
           "value": 0.3584591322359203,
           "parent": 0.0,
@@ -24077,6 +24453,14 @@
           "value": 0.041608208522368524,
           "parent": 0.0,
           "delta": 0.041608208522368524,
+          "percent_change": null,
+          "unit": "angstrom",
+          "good_direction": "lower"
+        },
+        "af2_essential_ca_rmsd": {
+          "value": 0.013788984477193551,
+          "parent": 0.0,
+          "delta": 0.013788984477193551,
           "percent_change": null,
           "unit": "angstrom",
           "good_direction": "lower"
