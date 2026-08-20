@@ -16,7 +16,7 @@ import numpy as np
 
 
 ROOT = Path("/home/ubuntu/codex_ph20_20260820")
-FOLD_DIR = ROOT / "work/esmfold2fast_fold128"
+FOLD_DIR = ROOT / "work/esmfold2fast_fold120_v2"
 OUT_DIR = ROOT / "outputs/ph20_48_10mut_designs"
 N_FINAL = 48
 
@@ -157,7 +157,7 @@ def main() -> None:
         mutations = set(row["mutations"].split(";"))
         if any(len(mutations & set(other["mutations"].split(";"))) > 8 for other in selected):
             continue
-        if any(mutation_use[mutation] >= 44 for mutation in mutations):
+        if any(mutation_use[mutation] >= 45 for mutation in mutations):
             continue
         selected.append(row)
         mutation_use.update(mutations)
@@ -203,8 +203,8 @@ def main() -> None:
     manifest = {
         "target": "soluble human PH20/SPAM1; initiator Met + UniProt P38567 residues 36-483",
         "wild_type_length": len(sequences["WT"]),
-        "generated_unique_exact_ten_mutants": 8600,
-        "five_model_scored": 480,
+        "generated_unique_exact_ten_mutants": sum(1 for _ in (ROOT / "work/ph20_generated_10mut_pool.csv").open()) - 1,
+        "five_model_scored": 400,
         "folded": len(evaluated),
         "fold_passing": len(passing),
         "design_count": len(final_rows),

@@ -77,7 +77,7 @@ def main() -> None:
 
     likelihood_models = [json.loads((ROOT / "work/ridgey_structure_likelihood" / f"{name}.json").read_text()) for name in MODEL_NAMES]
     likelihood_maps = [{row["design"]: row for row in model["results"]} for model in likelihood_models]
-    ridgey_models = [json.loads((ROOT / "work/ridgey_local_ensemble_pool480" / f"{name}.json").read_text()) for name in MODEL_NAMES]
+    ridgey_models = [json.loads((ROOT / "work/ridgey_local_ensemble_pool400" / f"{name}.json").read_text()) for name in MODEL_NAMES]
     ridgey_maps = [{row["name"]: row for row in model["records"]} for model in ridgey_models]
     ridgey_wt = [model["records"][0] for model in ridgey_models]
 

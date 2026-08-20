@@ -2,6 +2,6 @@
 
 These are computationally prioritized candidates, not experimentally validated proteins. The parent is an initiator methionine followed by human PH20 residues 36–483.
 
-The campaign generated 8,600 unique exact ten-mutants, five-model scored 480, folded 128, and retained 118 through structural gates before selecting 48 diverse finalists.
+The campaign generated 2,267 unique exact ten-mutants, five-model scored 400, folded 120, and retained 105 through structural gates before selecting 48 diverse finalists.
 
 No finalist changes a catalytic/substrate residue, any residue within the 10 Å protected active-pocket shell, a cysteine/disulfide neighborhood, or an N-glycosylation sequon.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a broad PH20 pool, then select 480 exact ten-mutation designs."""
+"""Generate a broad PH20 pool, then select 400 exact ten-mutation designs."""
 
 from __future__ import annotations
 
@@ -19,8 +19,12 @@ ROOT = Path("/home/ubuntu/codex_ph20_20260820")
 MODEL_NAMES = ("base", "ens1", "ens2", "ens3", "ens4")
 SEED = 20260820
 RAW_TARGET = 20_000
-SCORE_POOL_SIZE = 480
+SCORE_POOL_SIZE = 400
 ATTEMPTS = 2_000_000
+# Excluded after the first folded-candidate audit: M36L and E325Q showed
+# recurrent own-backbone likelihood warnings; M314Y and A413R were below the
+# conservative 0.5% MSA-frequency floor.
+AUDIT_EXCLUDED_MUTATIONS = {"M36L", "E325Q", "M314Y", "A413R"}
 CHARGE = {"D": -1, "E": -1, "K": 1, "R": 1}
 HYDROPATHY = {
     "I": 4.5, "V": 4.2, "L": 3.8, "F": 2.8, "C": 2.5,
@@ -93,6 +97,8 @@ def main() -> None:
 
     single_candidates: list[dict] = []
     for mutation, values in scored.items():
+        if mutation in AUDIT_EXCLUDED_MUTATIONS:
+            continue
         meta = metadata[mutation]
         mean_stability = statistics.mean(values["stability"])
         mean_ec = statistics.mean(values["ec"])
@@ -259,7 +265,7 @@ def main() -> None:
         mutation_set = set(design["mutations"])
         if any(len(mutation_set & set(other["mutations"])) > 8 for other in selected):
             continue
-        if any(mutation_use[mutation] >= int(0.80 * SCORE_POOL_SIZE) for mutation in mutation_set):
+        if any(mutation_use[mutation] >= int(0.95 * SCORE_POOL_SIZE) for mutation in mutation_set):
             continue
         selected.append(design)
         mutation_use.update(mutation_set)
@@ -284,8 +290,8 @@ def main() -> None:
                 **{key: (";".join(value) if key == "mutations" else value) for key, value in design.items() if key not in {"chosen"}},
             })
 
-    csv_path = ROOT / "work/ph20_10mut_pool480.csv"
-    fasta_path = ROOT / "work/ph20_10mut_pool480.fasta"
+    csv_path = ROOT / "work/ph20_10mut_pool400.csv"
+    fasta_path = ROOT / "work/ph20_10mut_pool400.fasta"
     essential = [112, 114, 177, 230, 250, 253]
     with csv_path.open("w", newline="") as csv_handle, fasta_path.open("w") as fasta_handle:
         writer = csv.DictWriter(csv_handle, fieldnames=fields)

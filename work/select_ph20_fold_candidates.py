@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Select 128 diverse consensus Ridgey winners for PH20 structure prediction."""
+"""Select 120 diverse consensus Ridgey winners for PH20 structure prediction."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path("/home/ubuntu/codex_ph20_20260820")
 MODEL_NAMES = ("base", "ens1", "ens2", "ens3", "ens4")
-N_FOLD = 128
+N_FOLD = 120
 
 
 def read_fasta(path: Path) -> dict[str, str]:
@@ -37,14 +37,14 @@ def joined(values: list[float]) -> str:
 
 
 def main() -> None:
-    directory = ROOT / "work/ridgey_local_ensemble_pool480"
+    directory = ROOT / "work/ridgey_local_ensemble_pool400"
     models = [json.loads((directory / f"{name}.json").read_text()) for name in MODEL_NAMES]
     wild_types = [model["records"][0] for model in models]
     record_maps = [{record["name"]: record for record in model["records"]} for model in models]
-    sequences = read_fasta(ROOT / "work/ph20_10mut_pool480.fasta")
+    sequences = read_fasta(ROOT / "work/ph20_10mut_pool400.fasta")
     metadata = {
         row["name"]: row
-        for row in csv.DictReader((ROOT / "work/ph20_10mut_pool480.csv").open())
+        for row in csv.DictReader((ROOT / "work/ph20_10mut_pool400.csv").open())
     }
 
     passing: list[dict] = []

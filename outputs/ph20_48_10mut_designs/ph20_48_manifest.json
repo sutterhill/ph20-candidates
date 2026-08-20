@@ -1,10 +1,10 @@
 {
   "target": "soluble human PH20/SPAM1; initiator Met + UniProt P38567 residues 36-483",
   "wild_type_length": 449,
-  "generated_unique_exact_ten_mutants": 8600,
-  "five_model_scored": 480,
-  "folded": 128,
-  "fold_passing": 118,
+  "generated_unique_exact_ten_mutants": 2267,
+  "five_model_scored": 400,
+  "folded": 120,
+  "fold_passing": 105,
   "design_count": 48,
   "mutations_per_design": 10,
   "protected_essential_construct_positions": [
@@ -30,8 +30,8 @@
     "selected_l2_lambda": 1.0
   },
   "esmfold2fast_wt": {
-    "plddt": 0.9593032002449036,
-    "ptm": 0.9757335782051086
+    "plddt": 0.9593347311019897,
+    "ptm": 0.9757421016693115
   },
   "selection": {
     "stability": "positive delta in all five Ridgey 600M checkpoints",
