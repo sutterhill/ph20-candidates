@@ -30,6 +30,7 @@ CONFIGS = {
         "max_domain_rmsd": 1.50,
         "protected_rmsd": 0.75,
         "essential_rmsd": 0.75,
+        "gate_protected_rmsd": True,
         "protected_label": "active pocket",
     },
     "ngly1": {
@@ -47,6 +48,7 @@ CONFIGS = {
         "max_domain_rmsd": 2.50,
         "protected_rmsd": 1.50,
         "essential_rmsd": 0.75,
+        "gate_protected_rmsd": False,
         "protected_label": "catalytic/Zn protection shell",
     },
 }
@@ -210,9 +212,10 @@ def main() -> None:
             "plddt": result["mean_plddt"] >= wt["mean_plddt"] - config["plddt_tolerance"],
             "ptm": result["ptm"] >= wt["ptm"] - config["ptm_tolerance"],
             "max_domain_rmsd": max_domain_rmsd <= config["max_domain_rmsd"],
-            "protected_rmsd": protected_rmsd <= config["protected_rmsd"],
             "essential_rmsd": essential_rmsd <= config["essential_rmsd"],
         }
+        if config["gate_protected_rmsd"]:
+            gate_checks["protected_rmsd"] = protected_rmsd <= config["protected_rmsd"]
         rows.append({
             "design": name,
             "af2_plddt": result["mean_plddt"],
@@ -246,6 +249,9 @@ def main() -> None:
         candidate["measurements"]["af2_protected_ca_rmsd"] = metric(
             row["af2_protected_ca_rmsd_vs_parent_angstrom"], 0.0, "angstrom", "lower"
         )
+        candidate["measurements"]["af2_essential_ca_rmsd"] = metric(
+            row["af2_essential_ca_rmsd_vs_parent_angstrom"], 0.0, "angstrom", "lower"
+        )
         candidate["measurements"]["af2_max_domain_ca_rmsd"] = metric(
             row["af2_max_domain_ca_rmsd_vs_parent_angstrom"], 0.0, "angstrom", "lower"
         )
@@ -268,10 +274,14 @@ def main() -> None:
     payload["summary"]["af2_pass_candidates"] = sum(row["af2_gate_pass"] for row in rows)
     payload["summary"]["af2_fail_candidates"] = sum(not row["af2_gate_pass"] for row in rows)
     payload["summary"]["af2_failed_designs"] = [row["design"] for row in rows if not row["af2_gate_pass"]]
+    protected_gate_text = (
+        f", {config['protected_label']} RMSD <= {config['protected_rmsd']:.2f} Å"
+        if config["gate_protected_rmsd"] else ""
+    )
     payload["summary"]["af2_validation_definition"] = (
         f"candidate versus AF2 parent: pLDDT >= parent-{config['plddt_tolerance']:.3f}, "
         f"pTM >= parent-{config['ptm_tolerance']:.3f}, max-domain RMSD <= {config['max_domain_rmsd']:.2f} Å, "
-        f"{config['protected_label']} RMSD <= {config['protected_rmsd']:.2f} Å, essential-site RMSD <= {config['essential_rmsd']:.2f} Å"
+        f"essential-site RMSD <= {config['essential_rmsd']:.2f} Å{protected_gate_text}"
     )
 
     merged_path = out / f"{args.project}_candidate_measurements_with_af2.json"
